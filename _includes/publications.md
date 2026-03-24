@@ -1,11 +1,12 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Recent Publications</h2>
+<h2 id="publications" style="margin: 2px 0px 0px;">Recent Publications</h2>
 
-<p>
+<p style="margin-top: 5px;">
   Recent publications in the past three years. Full list on 
   <a href="https://scholar.google.com/citations?&user=tqjfj-EAAAAJ" target="_blank" style="color: #002D72; font-weight: bold;">
     Google Scholar Profile
   </a>.
 </p>
+
 
 <div class="publications">
 <ol class="bibliography">
