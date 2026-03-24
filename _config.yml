@@ -1,7 +1,7 @@
 # Basic Information 
 title: Xiaoyu Yang
 position: Ph.D. Student
-affiliation: Australian Artificial Intelligence Institute (AAII),\n University of Technology Sydney (UTS)
+affiliation: Australian Artificial Intelligence Institute (AAII),<br>University of Technology Sydney (UTS)
 email: Xiaoyu.Yang-3@student.uts.edu.au
 
 # Search Engine Optimization (SEO)
@@ -14,7 +14,7 @@ canonical: https://minimal-light-theme.yliu.me/
 # If you don't need one of them, you may delete the corresponding line.
 google_scholar: https://scholar.google.com/citations?&user=tqjfj-EAAAAJ
 cv_link: assets/files/curriculum_vitae.pdf
-github_link: https://github.com/
+github_link: https://github.com/XiaoyuYoung
 # linkedin: https://www.linkedin.com/
 # twitter: https://twitter.com/
 
