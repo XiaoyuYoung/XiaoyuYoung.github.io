@@ -20,14 +20,13 @@
         <source src="{{ link.video }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-    {% elif link.image %}
-      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto;">
+    {% elsif link.image %}  <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; height: auto;">
     {% endif %}
   
     {% if link.conference_short %} 
       <abbr class="badge">{{ link.conference_short }}</abbr>
     {% endif %}
-  </div>        
+  </div>     
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
       <div class="author">{{ link.authors }}</div>
