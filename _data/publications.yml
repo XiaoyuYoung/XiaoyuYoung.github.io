@@ -1,7 +1,7 @@
 main:
   - title: "Walking the Tightrope: Autonomous Disentangling Beneficial and Detrimental Drifts in Non-Stationary Custom-Tuning"
     authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
-    conference_short: NeurIPS
+    conference_short: NeurIPS'25
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
     pdf: "https://openreview.net/pdf?id=1BAiQmAFsx"
     code: "https://github.com/XiaoyuYoung/CPO"
@@ -10,7 +10,7 @@ main:
   
   - title: "Adapting Multi-modal Large Language Model to Concept Drift From Pre-training Onwards"
     authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
-    conference_short: ICLR
+    conference_short: ICLR'25
     conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.
     pdf: "https://openreview.net/pdf?id=b20VK2GnSs"
     code: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs"
