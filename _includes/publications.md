@@ -13,14 +13,14 @@
         autoplay loop muted playsinline 
         poster="{{ link.image }}" 
         class="teaser z-depth-1" 
-        style="width: 180px; height: 110px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.1);">
+        style="width: 180px; height: 90px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.1);">
         <source src="{{ link.video }}" type="video/mp4">
       </video>
     {% elsif link.image %}
       <img 
         src="{{ link.image }}" 
         class="teaser z-depth-1" 
-        style="width: 180px; height: 110px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.1);">
+        style="width: 180px; height: 90px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.1);">
     {% endif %}
   
     {% if link.conference_short %} 
