@@ -36,7 +36,7 @@ main:
     code: "https://github.com/XiaoyuYoung/Geometry_Segmentation_for_Coronary_Artery"
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:KtyO2h1YtH8J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRtDiM:ADi0EEUAAAAAacJrFiOTdX1FvT6PS7_trelyyW4&scisig=ADi0EEUAAAAAacJrFj9-7WsOJJlo0SHWvgexByg&scisf=4&ct=citation&cd=-1&hl=zh-CN"
     dataset: "https://huggingface.co/datasets/MedHK23/CCA"
-    image: "https://github.com/XiaoyuYoung/Geometry_Segmentation_for_Coronary_Artery/raw/main/images/results.jpg"
+    image: "./assets/img/TMI25-CCA.jpg"
 
   - title: "Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning"
     authors: En Yu, Jie Lu, Kun Wang, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
@@ -53,4 +53,4 @@ main:
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
     pdf: "https://openreview.net/pdf?id=efrFbKYobs"
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:DTwnklHqz50J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRv5Os:ADi0EEUAAAAAacJp_Os8rRMiIfYVNGCIUO-0OEM&scisig=ADi0EEUAAAAAacJp_NeZiht6GDVxNB3RwTOzZIc&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
-    image: "./assets/img/spectral_2025.png"
+    image: "./assets/img/yuNeurIPS25.png"
