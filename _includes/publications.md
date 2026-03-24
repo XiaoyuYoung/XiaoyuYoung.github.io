@@ -16,7 +16,7 @@
         playsinline 
         poster="{{ link.image }}" 
         class="teaser z-depth-1" 
-        style="width: 180px; height: 110px; object-fit: cover; border-radius: 4px;"> 
+        style="width: 200px; height: 110px; object-fit: cover; border-radius: 4px;"> 
         <source src="{{ link.video }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
