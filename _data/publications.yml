@@ -24,7 +24,7 @@ main:
     pdf: "https://raw.githubusercontent.com/mlresearch/v267/main/assets/yang25ao/yang25ao.pdf"
     code: "https://github.com/XiaoyuYoung/OCL"
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:hHds32-9iQoJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQqRD4:ADi0EEUAAAAAacIsXD4TvLZCXu69lWkrhyc4wi4&scisig=ADi0EEUAAAAAacIsXJwysispuTZllSZeQXMi6eA&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
-    image: "https://github.com/XiaoyuYoung/OCL/raw/main/imgs/workflow.png"
+    image: "./assets/img/ocl.png"
 
   - title: "Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning"
     authors: En Yu, Jie Lu, Kun Wang, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
