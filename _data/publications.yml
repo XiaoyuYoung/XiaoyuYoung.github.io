@@ -16,3 +16,22 @@ main:
     code: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs"
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:zY-dWnN4mz0J:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQh7NA:ADi0EEUAAAAAacIn9NDYHutnR5M0ek0KGxVbYr8&scisig=ADi0EEUAAAAAacIn9FJfXHoByQjRxbrJpVFpkAg&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
     image: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs/raw/main/figures/framework.png"
+
+  - title: One Leaf Reveals the Season: Occlusion-Based Contrastive Learning with Semantic-Aware Views for Efficient Visual Representation
+    authors: <strong>Xiaoyu Yang</strong>, Lijian Xu, Hongsheng Li, Shaoting Zhang
+    conference_short: ICML'25
+    conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
+    pdf: https://raw.githubusercontent.com/mlresearch/v267/main/assets/yang25ao/yang25ao.pdf
+    code: https://github.com/XiaoyuYoung/OCL
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:hHds32-9iQoJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQqRD4:ADi0EEUAAAAAacIsXD4TvLZCXu69lWkrhyc4wi4&scisig=ADi0EEUAAAAAacIsXJwysispuTZllSZeQXMi6eA&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1
+    image: https://github.com/XiaoyuYoung/OCL/raw/main/imgs/workflow.png
+
+- title: Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning
+    authors: En Yu, Jie Lu, Kun Wang, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
+    conference_short: AAAI
+    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI) Oral</strong>, 2026.
+    pdf: https://ojs.aaai.org/index.php/AAAI/article/view/38656/42618
+    bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:mr7erHzmryYJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQrPgA:ADi0EEUAAAAAacItJgB7AbsQ3BUw18zudIaruV4&scisig=ADi0EEUAAAAAacItJhow2eb-Qro4zMzCJ7JKPKw&scisf=4&ct=citation&cd=-1&hl=zh-CN
+    image: ./assets/img/moe_2026.png
+    notes: Oral Presentation
+
