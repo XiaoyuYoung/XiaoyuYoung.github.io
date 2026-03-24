@@ -1,4 +1,11 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="publications" style="margin: 2px 0px -15px;">Recent Publications</h2>
+
+<p>
+  Recent publications in the past three years. Full list on 
+  <a href="https://scholar.google.com/citations?&user=tqjfj-EAAAAJ" target="_blank" style="color: #002D72; font-weight: bold;">
+    Google Scholar Profile
+  </a>.
+</p>
 
 <div class="publications">
 <ol class="bibliography">
@@ -16,7 +23,7 @@
         playsinline 
         poster="{{ link.image }}" 
         class="teaser img-fluid z-depth-1" 
-        style="width=100; height=40%; object-fit: cover; border-radius: 4px;"> 
+        style="width=65; height=40%; object-fit: cover; border-radius: 4px;"> 
         <source src="{{ link.video }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
