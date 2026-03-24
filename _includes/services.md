@@ -22,5 +22,4 @@
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Neural Networks and Learning Systems (TNNLS)</autocolor></a></li>
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Machine Learning Research (TMLR)</autocolor></a></li>
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Artificial Intelligence (TAI)</autocolor></a></li>
-
 </ul>
