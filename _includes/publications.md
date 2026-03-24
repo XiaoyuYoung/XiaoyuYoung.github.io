@@ -7,25 +7,20 @@
 
 <li>
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    {% if link.video %}
-      <video 
-        autoplay loop muted playsinline 
-        poster="{{ link.image }}" 
-        class="teaser z-depth-1" 
-        style="width=100;height=40%">
-        <source src="{{ link.video }}" type="video/mp4">
-      </video>
-    {% elsif link.image %}
-      <img 
-        src="{{ link.image }}" 
-        class="teaser z-depth-1" 
-        style="width=100;height=40%">
-    {% endif %}
-  
-    {% if link.conference_short %} 
-      <abbr class="badge" style="position: absolute; left: 15px; top: 0;">{{ link.conference_short }}</abbr>
-    {% endif %}
+  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px;">
+      {% if link.video %}
+        <video 
+          autoplay loop muted playsinline 
+          class="teaser img-fluid z-depth-1" 
+          style="width: 100%; height: 200px; object-fit: cover; display: block;">
+          <source src="{{ link.video }}" type="video/mp4">
+        </video>
+      {% elsif link.image %}
+        <img 
+          src="{{ link.image }}" 
+          class="teaser img-fluid z-depth-1" 
+          style="width: 100%; height: 200px; object-fit: cover; display: block;">
+      {% endif %}
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
