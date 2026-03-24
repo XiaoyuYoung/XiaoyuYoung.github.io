@@ -5,6 +5,7 @@ main:
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
     pdf: "https://openreview.net/pdf?id=1BAiQmAFsx"
     code: "https://github.com/XiaoyuYoung/CPO"
+    dataset: "https://huggingface.co/datasets/MiaoMiaoYang/CXR-CounterFact"
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:WaNt7f_dX3cJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQhtPk:ADi0EEUAAAAAacInrPlRX1jgh4I0VQtKiMbV5h8&scisig=ADi0EEUAAAAAacInrCiuorqgviOr4Y6Lvbh8ea0&scisf=4&ct=citation&cd=-1&hl=zh-CN"
     image: "https://github.com/XiaoyuYoung/CPO/raw/main/images/workflow.png"
   
@@ -14,6 +15,7 @@ main:
     conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.
     pdf: "https://openreview.net/pdf?id=b20VK2GnSs"
     code: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs"
+    dataset: "https://huggingface.co/datasets/MiaoMiaoYang/OpenMMlo"
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:zY-dWnN4mz0J:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQh7NA:ADi0EEUAAAAAacIn9NDYHutnR5M0ek0KGxVbYr8&scisig=ADi0EEUAAAAAacIn9FJfXHoByQjRxbrJpVFpkAg&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
     image: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs/raw/main/figures/framework.png"
 
@@ -26,11 +28,29 @@ main:
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:hHds32-9iQoJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQqRD4:ADi0EEUAAAAAacIsXD4TvLZCXu69lWkrhyc4wi4&scisig=ADi0EEUAAAAAacIsXJwysispuTZllSZeQXMi6eA&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
     image: "./assets/img/ocl.png"
 
+  - title: "Segmentation and vascular vectorization for coronary artery by geometry-based cascaded neural network"
+    authors: <strong>Xiaoyu Yang</strong>, Lijian Xu, Simon Yu, Qing Xia, Hongsheng Li, Shaoting Zhang
+    conference_short: "TMI'25"
+    conference: IEEE Transactions on Medical Imaging <strong>(TMI)</strong>, 2025.
+    pdf: "https://arxiv.org/pdf/2305.04208"
+    code: "https://github.com/XiaoyuYoung/Geometry_Segmentation_for_Coronary_Artery"
+    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:KtyO2h1YtH8J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRtDiM:ADi0EEUAAAAAacJrFiOTdX1FvT6PS7_trelyyW4&scisig=ADi0EEUAAAAAacJrFj9-7WsOJJlo0SHWvgexByg&scisf=4&ct=citation&cd=-1&hl=zh-CN"
+    dataset: ""https://huggingface.co/datasets/MedHK23/CCA
+    image: "https://github.com/XiaoyuYoung/Geometry_Segmentation_for_Coronary_Artery/raw/main/images/results.jpg"
+
   - title: "Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning"
     authors: En Yu, Jie Lu, Kun Wang, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
-    conference_short: AAAI'26
+    conference_short: "AAAI'26"
     conference: AAAI Conference on Artificial Intelligence <strong>(AAAI) Oral</strong>, 2026.
     pdf: "https://ojs.aaai.org/index.php/AAAI/article/view/38656/42618"
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:mr7erHzmryYJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQrPgA:ADi0EEUAAAAAacItJgB7AbsQ3BUw18zudIaruV4&scisig=ADi0EEUAAAAAacItJhow2eb-Qro4zMzCJ7JKPKw&scisf=4&ct=citation&cd=-1&hl=zh-CN"
     image: "./assets/img/camel.png"
     notes: Oral Presentation
+  
+  - title: "Learning robust spectral dynamics for temporal domain generalization"
+    authors: En Yu, Jie Lu, <strong>Xiaoyu Yang</strong>, Guangquan Zhang, Zhen Fang
+    conference_short: "NeurIPS‘25’"
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
+    pdf: "https://openreview.net/pdf?id=efrFbKYobs"
+    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:DTwnklHqz50J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRv5Os:ADi0EEUAAAAAacJp_Os8rRMiIfYVNGCIUO-0OEM&scisig=ADi0EEUAAAAAacJp_NeZiht6GDVxNB3RwTOzZIc&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
+    image: "./assets/img/spectral_2025.png"
