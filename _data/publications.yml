@@ -38,6 +38,14 @@ main:
     dataset: "https://huggingface.co/datasets/MedHK23/CCA"
     image: "./assets/img/TMI25-CCA.jpg"
 
+  - title: "T-distributed spherical feature representation for imbalanced classification"
+    authors: <strong>Xiaoyu Yang</strong>, Yufei Chen, Xiaodong Yue, Shaoxun Xu, Chao Ma
+    conference_short: "AAAI'23"
+    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023.
+    pdf: "https://ojs.aaai.org/index.php/AAAI/article/download/26284/26056"
+    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:QjYjCqvQ2h8J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRyVKc:ADi0EEUAAAAAacJ0TKcps8gMCY8E9xLLYulotVI&scisig=ADi0EEUAAAAAacJ0TKaXkgxR05gkyULnHhexO18&scisf=4&ct=citation&cd=-1&hl=zh-CN"
+    image: "./assets/img/aaai_2023.png"
+
   - title: "Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning"
     authors: En Yu, Jie Lu, Kun Wang, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
     conference_short: "AAAI'26"
@@ -55,12 +63,9 @@ main:
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:DTwnklHqz50J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRv5Os:ADi0EEUAAAAAacJp_Os8rRMiIfYVNGCIUO-0OEM&scisig=ADi0EEUAAAAAacJp_NeZiht6GDVxNB3RwTOzZIc&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
     image: "./assets/img/yuNeurIPS25.png"
 
-  - title: "T-distributed spherical feature representation for imbalanced classification"
-    authors: <strong>Xiaoyu Yang</strong>, Yufei Chen, Xiaodong Yue, Shaoxun Xu, Chao Ma
-    conference_short: "AAAI'23"
-    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023.
-    pdf: "https://ojs.aaai.org/index.php/AAAI/article/download/26284/26056"
-    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:QjYjCqvQ2h8J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRyVKc:ADi0EEUAAAAAacJ0TKcps8gMCY8E9xLLYulotVI&scisig=ADi0EEUAAAAAacJ0TKaXkgxR05gkyULnHhexO18&scisf=4&ct=citation&cd=-1&hl=zh-CN"
-    image: "./assets/img/aaai_2023.png"
-
+  - title: "Autonomous Online Multistream Generalization Via Fuzzy Joint Discriminant Analysis"
+    authors: En Yu, Jie Lu, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
+    conference_short: "TFS'26"
+    conference: IEEE Transactions on Fuzzy Systems <strong>(TFS)</strong>, 2026.
+    image: "./assets/img/fuzzy_2026.png"
 
