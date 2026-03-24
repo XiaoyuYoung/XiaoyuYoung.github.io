@@ -7,20 +7,20 @@
 
 <li>
 <div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative; padding-right: 15px; padding-left: 15px; min-height: 110px; display: flex; align-items: flex-start;">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     {% if link.video %}
       <video 
         autoplay loop muted playsinline 
         poster="{{ link.image }}" 
         class="teaser z-depth-1" 
-        style="width: 180px; height: 90px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.1);">
+        style="width=100;height=40%">
         <source src="{{ link.video }}" type="video/mp4">
       </video>
     {% elsif link.image %}
       <img 
         src="{{ link.image }}" 
         class="teaser z-depth-1" 
-        style="width: 180px; height: 90px; object-fit: cover; border-radius: 4px; border: 1px solid rgba(0,0,0,0.1);">
+        style="width=100;height=40%">
     {% endif %}
   
     {% if link.conference_short %} 
