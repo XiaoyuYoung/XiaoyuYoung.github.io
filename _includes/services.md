@@ -8,6 +8,7 @@
   <li><a href="https://icml.cc/"><autocolor>International Conference on Learning Representations (ICLR) 2025-2026</autocolor></a></li>
   <li><a href="https://cvpr.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2023-2026</autocolor></a></li>
   <li><a href="https://eccv.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV) 2026</autocolor></a></li>
+  <li><a href="https://aaai.org/"><autocolor>The Annual AAAI Conference on Artificial Intelligence (AAAI) 2024-2026</autocolor></a></li>
   <li><a href="https://miccai.org/"><autocolor>International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI) 2024-2025</autocolor></a></li>
 </ul>
 
