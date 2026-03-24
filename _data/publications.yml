@@ -46,11 +46,21 @@ main:
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:mr7erHzmryYJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQrPgA:ADi0EEUAAAAAacItJgB7AbsQ3BUw18zudIaruV4&scisig=ADi0EEUAAAAAacItJhow2eb-Qro4zMzCJ7JKPKw&scisf=4&ct=citation&cd=-1&hl=zh-CN"
     image: "./assets/img/camel.png"
     notes: Oral Presentation
-  
+     
   - title: "Learning robust spectral dynamics for temporal domain generalization"
     authors: En Yu, Jie Lu, <strong>Xiaoyu Yang</strong>, Guangquan Zhang, Zhen Fang
-    conference_short: "NeurIPS‘25’"
+    conference_short: "NeurIPS'25"
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
     pdf: "https://openreview.net/pdf?id=efrFbKYobs"
     bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:DTwnklHqz50J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRv5Os:ADi0EEUAAAAAacJp_Os8rRMiIfYVNGCIUO-0OEM&scisig=ADi0EEUAAAAAacJp_NeZiht6GDVxNB3RwTOzZIc&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
     image: "./assets/img/yuNeurIPS25.png"
+
+  - title: "T-distributed spherical feature representation for imbalanced classification"
+    authors: <strong>Xiaoyu Yang</strong>, Yufei Chen, Xiaodong Yue, Shaoxun Xu, Chao Ma
+    conference_short: "AAAI'23"
+    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023.
+    pdf: "https://ojs.aaai.org/index.php/AAAI/article/download/26284/26056"
+    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:QjYjCqvQ2h8J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRyVKc:ADi0EEUAAAAAacJ0TKcps8gMCY8E9xLLYulotVI&scisig=ADi0EEUAAAAAacJ0TKaXkgxR05gkyULnHhexO18&scisf=4&ct=citation&cd=-1&hl=zh-CN"
+    image: "./assets/img/aaai_2023.png"
+
+
