@@ -1,18 +1,18 @@
 main:
-  - title: Walking the Tightrope: Autonomous Disentangling Beneficial and Detrimental Drifts in Non-Stationary Custom-Tuning
-      authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
-      conference_short: NeurIPS
-      conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
-      pdf: https://openreview.net/pdf?id=1BAiQmAFsx
-      code: https://github.com/XiaoyuYoung/CPO
-      bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:WaNt7f_dX3cJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQhtPk:ADi0EEUAAAAAacInrPlRX1jgh4I0VQtKiMbV5h8&scisig=ADi0EEUAAAAAacInrCiuorqgviOr4Y6Lvbh8ea0&scisf=4&ct=citation&cd=-1&hl=zh-CN
-      image: https://github.com/XiaoyuYoung/CPO/raw/main/images/workflow.png
+  - title: "Walking the Tightrope: Autonomous Disentangling Beneficial and Detrimental Drifts in Non-Stationary Custom-Tuning"
+    authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
+    conference_short: NeurIPS
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
+    pdf: "https://openreview.net/pdf?id=1BAiQmAFsx"
+    code: "https://github.com/XiaoyuYoung/CPO"
+    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:WaNt7f_dX3cJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQhtPk:ADi0EEUAAAAAacInrPlRX1jgh4I0VQtKiMbV5h8&scisig=ADi0EEUAAAAAacInrCiuorqgviOr4Y6Lvbh8ea0&scisf=4&ct=citation&cd=-1&hl=zh-CN"
+    image: "https://github.com/XiaoyuYoung/CPO/raw/main/images/workflow.png"
   
-  - title: Adapting Multi-modal Large Language Model to Concept Drift From Pre-training Onwards
-      authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
-      conference_short: ICLR
-      conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.
-      pdf: https://openreview.net/pdf?id=b20VK2GnSs
-      code: https://github.com/XiaoyuYoung/ConceptDriftMLLMs
-      bibtex: https://scholar.googleusercontent.com/scholar.bib?q=info:zY-dWnN4mz0J:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQh7NA:ADi0EEUAAAAAacIn9NDYHutnR5M0ek0KGxVbYr8&scisig=ADi0EEUAAAAAacIn9FJfXHoByQjRxbrJpVFpkAg&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1
-      image: https://github.com/XiaoyuYoung/ConceptDriftMLLMs/blob/main/figures/framework.png
+  - title: "Adapting Multi-modal Large Language Model to Concept Drift From Pre-training Onwards"
+    authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
+    conference_short: ICLR
+    conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.
+    pdf: "https://openreview.net/pdf?id=b20VK2GnSs"
+    code: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs"
+    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:zY-dWnN4mz0J:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQh7NA:ADi0EEUAAAAAacIn9NDYHutnR5M0ek0KGxVbYr8&scisig=ADi0EEUAAAAAacIn9FJfXHoByQjRxbrJpVFpkAg&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
+    image: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs/blob/main/figures/framework.png"
