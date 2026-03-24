@@ -16,12 +16,12 @@
         playsinline 
         poster="{{ link.image }}" 
         class="teaser img-fluid z-depth-1" 
-        style="width: 100px;height: auto"> 
+        style="width: 100%;height: auto"> 
         <source src="{{ link.video }}" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     {% elsif link.image %}
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100px;height: auto">
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%;height: auto">
     {% endif %}
   
     {% if link.conference_short %} 
