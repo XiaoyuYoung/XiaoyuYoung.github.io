@@ -15,7 +15,7 @@ Hi there, I am Xiaoyu Yang, a Ph.D. student at the Australian Artificial Intelli
 
 ## Awards
 
-- **[May. 2025]** Shanghai Computer Society (SCS) Outstanding Master's Thesis Award (Top 10 in Shanghai)
+- **[May. 2025]** Shanghai Computer Society (SCS) Outstanding Master's Thesis Award **(Top 10 in Shanghai)**.
 - **[Feb. 2024]** UTS President's Scholarship.
 - **[Feb. 2024]** International Research Scholarship.
 
