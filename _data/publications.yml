@@ -16,7 +16,7 @@ main:
     pdf: "https://openreview.net/pdf?id=b20VK2GnSs"
     code: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs"
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/OpenMMlo"
-    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:zY-dWnN4mz0J:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQh7NA:ADi0EEUAAAAAacIn9NDYHutnR5M0ek0KGxVbYr8&scisig=ADi0EEUAAAAAacIn9FJfXHoByQjRxbrJpVFpkAg&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
+    bibtex: "./assets/bibtex/yang2025adapting.txt"
     image: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs/raw/main/figures/framework.png"
 
   - title: "One Leaf Reveals the Season: Occlusion-Based Contrastive Learning with Semantic-Aware Views for Efficient Visual Representation"
@@ -25,7 +25,7 @@ main:
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
     pdf: "https://raw.githubusercontent.com/mlresearch/v267/main/assets/yang25ao/yang25ao.pdf"
     code: "https://github.com/XiaoyuYoung/OCL"
-    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:hHds32-9iQoJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQqRD4:ADi0EEUAAAAAacIsXD4TvLZCXu69lWkrhyc4wi4&scisig=ADi0EEUAAAAAacIsXJwysispuTZllSZeQXMi6eA&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
+    bibtex: "./assets/bibtex/yang2025one.txt"
     image: "./assets/img/ocl.png"
 
   - title: "Segmentation and vascular vectorization for coronary artery by geometry-based cascaded neural network"
@@ -34,7 +34,7 @@ main:
     conference: IEEE Transactions on Medical Imaging <strong>(TMI)</strong>, 2025.
     pdf: "https://arxiv.org/pdf/2305.04208"
     code: "https://github.com/XiaoyuYoung/Geometry_Segmentation_for_Coronary_Artery"
-    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:KtyO2h1YtH8J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRtDiM:ADi0EEUAAAAAacJrFiOTdX1FvT6PS7_trelyyW4&scisig=ADi0EEUAAAAAacJrFj9-7WsOJJlo0SHWvgexByg&scisf=4&ct=citation&cd=-1&hl=zh-CN"
+    bibtex: "./assets/bibtex/yang2025segmentation.txt"
     dataset: "https://huggingface.co/datasets/MedHK23/CCA"
     image: "./assets/img/TMI25-CCA.jpg"
 
@@ -43,7 +43,7 @@ main:
     conference_short: "AAAI'23"
     conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023.
     pdf: "https://ojs.aaai.org/index.php/AAAI/article/download/26284/26056"
-    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:QjYjCqvQ2h8J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRyVKc:ADi0EEUAAAAAacJ0TKcps8gMCY8E9xLLYulotVI&scisig=ADi0EEUAAAAAacJ0TKaXkgxR05gkyULnHhexO18&scisf=4&ct=citation&cd=-1&hl=zh-CN"
+    bibtex: "./assets/bibtex/yang2023t.txt"
     image: "./assets/img/aaai_2023.png"
 
   - title: "Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning"
@@ -51,7 +51,7 @@ main:
     conference_short: "AAAI'26"
     conference: AAAI Conference on Artificial Intelligence <strong>(AAAI) Oral</strong>, 2026.
     pdf: "https://ojs.aaai.org/index.php/AAAI/article/view/38656/42618"
-    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:mr7erHzmryYJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQrPgA:ADi0EEUAAAAAacItJgB7AbsQ3BUw18zudIaruV4&scisig=ADi0EEUAAAAAacItJhow2eb-Qro4zMzCJ7JKPKw&scisf=4&ct=citation&cd=-1&hl=zh-CN"
+    bibtex: "./assets/bibtex/yu2026drift.txt"
     image: "./assets/img/camel.png"
     notes: Oral Presentation
      
@@ -60,7 +60,7 @@ main:
     conference_short: "NeurIPS'25"
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
     pdf: "https://openreview.net/pdf?id=efrFbKYobs"
-    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:DTwnklHqz50J:scholar.google.com/&output=citation&scisdr=CjyFo3gOEPj-yQRv5Os:ADi0EEUAAAAAacJp_Os8rRMiIfYVNGCIUO-0OEM&scisig=ADi0EEUAAAAAacJp_NeZiht6GDVxNB3RwTOzZIc&scisf=4&ct=citation&cd=-1&hl=zh-CN&scfhb=1"
+    bibtex: "./assets/bibtex/yu2025learning.txt"
     image: "./assets/img/yuNeurIPS25.png"
 
   - title: "Autonomous Online Multistream Generalization Via Fuzzy Joint Discriminant Analysis"
@@ -68,4 +68,5 @@ main:
     conference_short: "TFS'26"
     conference: IEEE Transactions on Fuzzy Systems <strong>(TFS)</strong>, 2026.
     image: "./assets/img/fuzzy_2026.png"
+    bibtex: "./assets/bibtex/yu2026autonomous.txt"
 
