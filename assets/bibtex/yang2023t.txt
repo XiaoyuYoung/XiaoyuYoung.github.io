@@ -1,0 +1,9 @@
+@inproceedings{yang2023t,
+  title={T-distributed spherical feature representation for imbalanced classification},
+  author={Yang, Xiaoyu and Chen, Yufei and Yue, Xiaodong and Xu, Shaoxun and Ma, Chao},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={37},
+  number={9},
+  pages={10825--10833},
+  year={2023}
+}
