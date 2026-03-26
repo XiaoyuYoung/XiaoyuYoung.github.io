@@ -1,0 +1,8 @@
+@inproceedings{yang2025one,
+  title={One Leaf Reveals the Season: Occlusion-Based Contrastive Learning with Semantic-Aware Views for Efficient Visual Representation},
+  author={Yang, Xiaoyu and Xu, Lijian and Li, Hongsheng and Zhang, Shaoting},
+  booktitle={International Conference on Machine Learning},
+  pages={71425--71440},
+  year={2025},
+  organization={PMLR}
+}
