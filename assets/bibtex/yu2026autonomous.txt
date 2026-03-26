@@ -1,0 +1,7 @@
+@article{yu2026autonomous,
+  title={Autonomous Online Multistream Generalization Via Fuzzy Joint Discriminant Analysis},
+  author={Yu, En and Lu, Jie and Yang, Xiaoyu and Zhang, Guangquan},
+  journal={IEEE Transactions on Fuzzy Systems},
+  year={2026},
+  publisher={IEEE}
+}
