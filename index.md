@@ -11,7 +11,7 @@ I believe that, the mission of AI is to harness the most pioneering innovations 
 
 ## Research Interests
 
-My current research interests lie in drift within non-stationary medical environments.
+My current research interests lie in drift within non-stationary medical environments, to ensure that the future of healthcare is not only intelligent, but equitable, reliable, and universally beneficial.
 
 - **Robust & Evolving Intelligence:** Drift Learning, Robust Representation Learning, Multi-modal LLMs.
 - **AI for Healthcare:** Early Detection of Tumours, Rare Disease Diagnosis, Robust and Fair Clinical Reasoning. 
