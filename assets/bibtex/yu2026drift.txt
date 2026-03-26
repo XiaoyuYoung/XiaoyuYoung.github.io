@@ -1,0 +1,9 @@
+@inproceedings{yu2026drift,
+  title={Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning},
+  author={Yu, En and Lu, Jie and Wang, Kun and Yang, Xiaoyu and Zhang, Guangquan},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={19},
+  pages={16199--16207},
+  year={2026}
+}
