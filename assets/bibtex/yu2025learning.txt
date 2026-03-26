@@ -1,0 +1,7 @@
+@inproceedings{yu2025learning,
+  title={Learning Robust Spectral Dynamics  for Temporal Domain Generalization},
+  author={En Yu and Jie Lu and Xiaoyu Yang and Guangquan Zhang and Zhen Fang},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  year={2025},
+  url={https://openreview.net/forum?id=efrFbKYobs}
+}
