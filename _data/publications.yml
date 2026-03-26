@@ -6,7 +6,7 @@ main:
     pdf: "https://openreview.net/pdf?id=1BAiQmAFsx"
     code: "https://github.com/XiaoyuYoung/CPO"
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/CXR-CounterFact"
-    bibtex: "https://scholar.googleusercontent.com/scholar.bib?q=info:WaNt7f_dX3cJ:scholar.google.com/&output=citation&scisdr=Cjw-CW6kEPj-yQQhtPk:ADi0EEUAAAAAacInrPlRX1jgh4I0VQtKiMbV5h8&scisig=ADi0EEUAAAAAacInrCiuorqgviOr4Y6Lvbh8ea0&scisf=4&ct=citation&cd=-1&hl=zh-CN"
+    bibtex: "./assets/bibtex/yang2025walking.bib"
     video: "./assets/img/yangNeurIPS2025.mp4"
   
   - title: "Adapting Multi-modal Large Language Model to Concept Drift From Pre-training Onwards"
