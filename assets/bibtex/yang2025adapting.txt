@@ -1,0 +1,7 @@
+@inproceedings{yang2025adapting,
+  title={Adapting Multi-modal Large Language Model to Concept Drift From Pre-training Onwards},
+  author={Xiaoyu Yang and Jie Lu and En Yu},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025},
+  url={https://openreview.net/forum?id=b20VK2GnSs}
+}
