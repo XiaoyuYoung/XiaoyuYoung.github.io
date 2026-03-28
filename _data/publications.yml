@@ -8,6 +8,7 @@ main:
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/CXR-CounterFact"
     bibtex: "./assets/bibtex/yang2025walking.txt"
     video: "./assets/img/yangNeurIPS2025.mp4"
+    page: "https://xiaoyuyoung.github.io/CPO"
   
   - title: "Adapting Multi-modal Large Language Model to Concept Drift From Pre-training Onwards"
     authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
