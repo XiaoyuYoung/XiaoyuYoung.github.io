@@ -37,6 +37,7 @@ main:
     code: "https://github.com/XiaoyuYoung/Geometry_Segmentation_for_Coronary_Artery"
     bibtex: "./assets/bibtex/yang2025segmentation.txt"
     dataset: "https://huggingface.co/datasets/MedHK23/CCA"
+    video: "./assets/img/coronary_artery.mp4"
     image: "./assets/img/TMI25-CCA.jpg"
 
   - title: "T-distributed spherical feature representation for imbalanced classification"
