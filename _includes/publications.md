@@ -26,7 +26,7 @@
         class="teaser img-fluid z-depth-1" 
         style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 4px;"> 
         <source src="{{ link.video }}" type="video/mp4">
-        Your browser does not support the video tag.
+        Your browser does not support the video.
       </video>
     {% elsif link.image %}
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 4px;">
