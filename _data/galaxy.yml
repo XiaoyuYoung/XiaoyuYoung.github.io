@@ -1,0 +1,73 @@
+main:
+  - title: "Walking the Tightrope: Autonomous Disentangling Beneficial and Detrimental Drifts in Non-Stationary Custom-Tuning"
+    authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
+    conference_short: NeurIPS'25
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
+    pdf: "https://openreview.net/pdf?id=1BAiQmAFsx"
+    code: "https://github.com/XiaoyuYoung/CPO"
+    dataset: "https://huggingface.co/datasets/MiaoMiaoYang/CXR-CounterFact"
+    bibtex: "./assets/bibtex/yang2025walking.txt"
+    video: "./assets/img/yangNeurIPS2025.mp4"
+    page: "https://xiaoyuyoung.github.io/CPO"
+  
+  - title: "Adapting Multi-modal Large Language Model to Concept Drift From Pre-training Onwards"
+    authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
+    conference_short: ICLR'25
+    conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.
+    pdf: "https://openreview.net/pdf?id=b20VK2GnSs"
+    code: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs"
+    dataset: "https://huggingface.co/datasets/MiaoMiaoYang/OpenMMlo"
+    bibtex: "./assets/bibtex/yang2025adapting.txt"
+    image: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs/raw/main/figures/framework.png"
+
+  - title: "One Leaf Reveals the Season: Occlusion-Based Contrastive Learning with Semantic-Aware Views for Efficient Visual Representation"
+    authors: <strong>Xiaoyu Yang</strong>, Lijian Xu, Hongsheng Li, Shaoting Zhang
+    conference_short: ICML'25
+    conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
+    pdf: "https://raw.githubusercontent.com/mlresearch/v267/main/assets/yang25ao/yang25ao.pdf"
+    code: "https://github.com/XiaoyuYoung/OCL"
+    bibtex: "./assets/bibtex/yang2025one.txt"
+    image: "./assets/img/ocl.png"
+
+  - title: "Segmentation and vascular vectorization for coronary artery by geometry-based cascaded neural network"
+    authors: <strong>Xiaoyu Yang</strong>, Lijian Xu, Simon Yu, Qing Xia, Hongsheng Li, Shaoting Zhang
+    conference_short: "TMI'25"
+    conference: IEEE Transactions on Medical Imaging <strong>(TMI)</strong>, 2025.
+    pdf: "https://arxiv.org/pdf/2305.04208"
+    code: "https://github.com/XiaoyuYoung/Geometry_Segmentation_for_Coronary_Artery"
+    bibtex: "./assets/bibtex/yang2025segmentation.txt"
+    dataset: "https://huggingface.co/datasets/MedHK23/CCA"
+    image: "./assets/img/TMI25-CCA.jpg"
+
+  - title: "T-distributed spherical feature representation for imbalanced classification"
+    authors: <strong>Xiaoyu Yang</strong>, Yufei Chen, Xiaodong Yue, Shaoxun Xu, Chao Ma
+    conference_short: "AAAI'23"
+    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023.
+    pdf: "https://ojs.aaai.org/index.php/AAAI/article/download/26284/26056"
+    bibtex: "./assets/bibtex/yang2023t.txt"
+    image: "./assets/img/aaai_2023.png"
+
+  - title: "Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning"
+    authors: En Yu, Jie Lu, Kun Wang, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
+    conference_short: "AAAI'26"
+    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI) Oral</strong>, 2026.
+    pdf: "https://ojs.aaai.org/index.php/AAAI/article/view/38656/42618"
+    bibtex: "./assets/bibtex/yu2026drift.txt"
+    image: "./assets/img/camel.png"
+    notes: Oral Presentation
+     
+  - title: "Learning robust spectral dynamics for temporal domain generalization"
+    authors: En Yu, Jie Lu, <strong>Xiaoyu Yang</strong>, Guangquan Zhang, Zhen Fang
+    conference_short: "NeurIPS'25"
+    conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
+    pdf: "https://openreview.net/pdf?id=efrFbKYobs"
+    bibtex: "./assets/bibtex/yu2025learning.txt"
+    image: "./assets/img/yuNeurIPS25.png"
+
+  - title: "Autonomous Online Multistream Generalization Via Fuzzy Joint Discriminant Analysis"
+    authors: En Yu, Jie Lu, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
+    conference_short: "TFS'26"
+    conference: IEEE Transactions on Fuzzy Systems <strong>(TFS)</strong>, 2026.
+    image: "./assets/img/fuzzy_2026.png"
+    bibtex: "./assets/bibtex/yu2026autonomous.txt"
+
