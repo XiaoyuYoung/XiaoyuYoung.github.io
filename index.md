@@ -19,9 +19,9 @@ My current research interests lie in drift within non-stationary medical environ
 
 ## Awards
 
-- **[May. 2025]** Shanghai Computer Society (SCS) [Outstanding Master's Thesis Award](https://mp.weixin.qq.com/s/BZY9uWE2flfPgFpxwbhpnw) **(Top 10 in Shanghai)**.
-- **[Feb. 2024]** UTS President's Scholarship.
-- **[Feb. 2024]** International Research Scholarship.
+- Shanghai Computer Society (SCS) [Outstanding Master's Thesis Award](https://mp.weixin.qq.com/s/BZY9uWE2flfPgFpxwbhpnw) **(Top 10 in Shanghai)**.
+- UTS President's Scholarship.
+- International Research Scholarship.
 
 
 {% include_relative _includes/publications.md %}
