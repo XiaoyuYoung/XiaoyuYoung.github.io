@@ -32,7 +32,7 @@
     <style>
       .blog-pet-container {
         position: fixed;
-        bottom: -10px; 
+        bottom: 0px; 
         left: 150px;  
         z-index: 999;
         pointer-events: none; 
@@ -40,28 +40,12 @@
         transform-origin: bottom left;
       }
 
+      /* ============ 核心修改：手机端消失 ============ */
       @media (max-width: 900px) {
-        .blog-pet-container { display: none !important; }
+        .blog-pet-container {
+          display: none !important;
+        }
       }
-
-/* ============ [修改处 1] 摇摆动画改为旋转，底部固定 ============ */
-      @keyframes idleSway {
-        0%, 100% { rotate: 0deg; }
-        25% { rotate: -4deg; } /* 向左倾斜 */
-        75% { rotate: 4deg; }  /* 向右倾斜 */
-      }
-
-      .character.idle-shake {
-        /* 应用旋转动画，时长 2s 看起来更自然 */
-        animation: idleSway 2s ease-in-out infinite;
-      }
-
-      /* 为每个角色设置不同的延迟，防止“整齐划一” */
-      .char-purple.idle-shake { animation-delay: 0s; }
-      .char-black.idle-shake  { animation-delay: 0.4s; }
-      .char-orange.idle-shake { animation-delay: 0.8s; }
-      .char-yellow.idle-shake { animation-delay: 1.2s; }
-
 
       .characters-scene { position: relative; width: 480px; height: 360px; }
       .character { position: absolute; bottom: 0; transition: all 0.7s ease-in-out; transform-origin: bottom center; }
@@ -141,37 +125,19 @@
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
 
     <script>
-    let mouseX = 0, mouseY = 0;
-    let isPurpleBlinking = false, isBlackBlinking = false;
-    let isLookingAtEachOther = false; 
+      let mouseX = 0, mouseY = 0;
+      let isPurpleBlinking = false, isBlackBlinking = false;
+      let isLookingAtEachOther = false; // 新增：是否处于互相对视状态
 
-    // ==== ======== [修改处 2] 闲置计时器 JS 逻辑 ============
-    let idleTimer;
-    const IDLE_TIMEOUT = 20000; // 20秒不动就开始摇摆
-
-    function resetIdleTimer() {
-    const chars = document.querySelectorAll('.character');
-    // 鼠标活动时立即移除摇摆动画
-    chars.forEach(c => c.classList.remove('idle-shake'));
-    
-    clearTimeout(idleTimer);
-    idleTimer = setTimeout(() => {
-        // 闲置时间到，添加摇摆动画
-        chars.forEach(c => c.classList.add('idle-shake'));
-    }, IDLE_TIMEOUT);
-    }
-
-
+      // 1. 监听头像悬停
       const avatar = document.getElementById('blog-avatar');
       if (avatar) {
         avatar.addEventListener('mouseenter', () => {
           isLookingAtEachOther = true;
-          resetIdleTimer(); // 悬停也视为活动
           updateCharacters();
         });
         avatar.addEventListener('mouseleave', () => {
           isLookingAtEachOther = false;
-          resetIdleTimer();
           updateCharacters();
         });
       }
@@ -179,10 +145,6 @@
       document.addEventListener("mousemove", (e) => {
         mouseX = e.clientX;
         mouseY = e.clientY;
-        
-        // --- [修改处 4] 鼠标移动时重置计时器 ---
-        resetIdleTimer();
-
         if (!isLookingAtEachOther) updateCharacters();
       });
 
@@ -236,12 +198,13 @@
         const orangePos = calcPosition(orange);
         const yellowPos = calcPosition(yellow);
 
+        // --- 紫色角色逻辑 ---
         const pEyes = document.getElementById("purple-eyes");
         const pPupilL = document.getElementById("purple-pupil-l");
         const pPupilR = document.getElementById("purple-pupil-r");
         
         if (isLookingAtEachOther) {
-          purple.style.transform = "skewX(-12deg) translateX(40px)"; 
+          purple.style.transform = "skewX(-12deg) translateX(40px)"; // 身体倾向黑色角色
           pEyes.style.left = "55px"; pEyes.style.top = "45px";
           pPupilL.style.transform = "translate(3px, 4px)";
           pPupilR.style.transform = "translate(3px, 4px)";
@@ -254,12 +217,13 @@
           pPupilR.style.transform = `translate(${po.x}px, ${po.y}px)`;
         }
 
+        // --- 黑色角色逻辑 ---
         const bEyes = document.getElementById("black-eyes");
         const bPupilL = document.getElementById("black-pupil-l");
         const bPupilR = document.getElementById("black-pupil-r");
 
         if (isLookingAtEachOther) {
-          black.style.transform = "skewX(10deg) translateX(20px)"; 
+          black.style.transform = "skewX(10deg) translateX(20px)"; // 身体倾向紫色角色
           bEyes.style.left = "32px"; bEyes.style.top = "12px";
           bPupilL.style.transform = "translate(0px, -4px)";
           bPupilR.style.transform = "translate(0px, -4px)";
@@ -272,6 +236,7 @@
           bPupilR.style.transform = `translate(${bo.x}px, ${bo.y}px)`;
         }
 
+        // --- 眨眼处理 ---
         const pEyeL = document.getElementById("purple-eye-l");
         const pEyeR = document.getElementById("purple-eye-r");
         pEyeL.style.height = isPurpleBlinking ? "2px" : "18px";
@@ -282,6 +247,7 @@
         bEyeL.style.height = isBlackBlinking ? "2px" : "16px";
         bEyeR.style.height = isBlackBlinking ? "2px" : "16px";
 
+        // --- 橙色与黄色（仅基本跟随） ---
         orange.style.transform = `skewX(${orangePos.bodySkew}deg)`;
         const oEyes = document.getElementById("orange-eyes");
         oEyes.style.left = 82 + orangePos.faceX + "px";
@@ -292,9 +258,6 @@
         yEyes.style.left = 52 + yellowPos.faceX + "px";
         yEyes.style.top = 40 + yellowPos.faceY + "px";
       }
-
-      /* --- [修改处 5] 初始化计时器 --- */
-      resetIdleTimer();
     </script>
 
     {% if site.google_analytics %}
