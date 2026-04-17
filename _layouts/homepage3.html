@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <title>{{ site.title }} | {{site.affiliation}}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    {% if site.keywords %}<meta name="keywords" content="{{ site.keywords }}">{% endif %}
+    {% if site.canonical %}<link rel="canonical" href="{{ site.canonical }}"/>{% endif %}
+
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+
+    <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    {% if site.font == "Sans Serif" %}
+    <link rel="stylesheet" href="./assets/css/font_sans_serif.css">
+    {% else %}
+    <link rel="stylesheet" href="./assets/css/font.css">
+    {% endif %}
+    {% if site.auto_dark_mode %}
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/publications.css">
+    {% else %}
+    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
+    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
+    {% endif %}
+
+    <style>
+      .blog-pet-container {
+        position: fixed;
+        bottom: -10px; 
+        left: 150px;  
+        z-index: 999;
+        pointer-events: none; 
+        transform: scale(0.35); 
+        transform-origin: bottom left;
+      }
+
+      @media (max-width: 900px) {
+        .blog-pet-container { display: none !important; }
+      }
+
+/* ============ [修改处 1] 摇摆动画改为旋转，底部固定 ============ */
+      @keyframes idleSway {
+        0%, 100% { rotate: 0deg; }
+        25% { rotate: -4deg; } /* 向左倾斜 */
+        75% { rotate: 4deg; }  /* 向右倾斜 */
+      }
+
+      .character.idle-shake {
+        /* 应用旋转动画，时长 2s 看起来更自然 */
+        animation: idleSway 2s ease-in-out infinite;
+      }
+
+      /* 为每个角色设置不同的延迟，防止“整齐划一” */
+      .char-purple.idle-shake { animation-delay: 0s; }
+      .char-black.idle-shake  { animation-delay: 0.4s; }
+      .char-orange.idle-shake { animation-delay: 0.8s; }
+      .char-yellow.idle-shake { animation-delay: 1.2s; }
+
+
+      .characters-scene { position: relative; width: 480px; height: 360px; }
+      .character { position: absolute; bottom: 0; transition: all 0.7s ease-in-out; transform-origin: bottom center; }
+      .char-purple { left: 60px; width: 170px; height: 370px; background: #6c3ff5; border-radius: 10px 10px 0 0; z-index: 1; }
+      .char-black  { left: 220px; width: 115px; height: 290px; background: #2d2d2d; border-radius: 8px 8px 0 0; z-index: 2; }
+      .char-orange { left: 0; width: 230px; height: 190px; background: #ff9b6b; border-radius: 115px 115px 0 0; z-index: 3; }
+      .char-yellow { left: 290px; width: 135px; height: 215px; background: #e8d754; border-radius: 68px 68px 0 0; z-index: 4; }
+      .eyes { position: absolute; display: flex; transition: all 0.7s ease-in-out; }
+      .eyeball { border-radius: 50%; background: white; display: flex; align-items: center; justify-content: center; transition: height 0.15s ease; overflow: hidden; }
+      .pupil { border-radius: 50%; background: #2d2d2d; transition: transform 0.1s ease-out; }
+      .bare-pupil { width: 12px; height: 12px; border-radius: 50%; background: #2d2d2d; transition: transform 0.7s ease-in-out; }
+      .yellow-mouth { position: absolute; width: 50px; height: 4px; background: #2d2d2d; border-radius: 2px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        {% if site.avatar %}
+        <a class="image avatar" id="blog-avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
+        {% endif %}
+
+        <h1>{{ site.title }}</h1>
+        {% if site.position %}<position style="font-size:1.10rem;">{{ site.position }}</position><br>{% endif %}
+        {% if site.affiliation %}<a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a><br>{% endif %}
+        {% if site.email %}<email>{{ site.email }}</email>{% endif %}
+
+        <br><br>
+        <div class="social-icons">
+          {% if site.google_scholar %}<a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}"><i class="ai ai-google-scholar" style="font-size:1.2rem"></i></a>{% endif %}
+          {% if site.cv_link %}<a style="margin: 0 5px 0 0" href="{{ site.cv_link }}"><i class="ai ai-cv" style="font-size:1.3rem;"></i></a>{% endif %}
+          {% if site.github_link %}<a style="margin: 0 5px 0 0" href="{{ site.github_link }}"><i class="fab fa-github"></i></a>{% endif %}
+          {% if site.linkedin %}<a style="margin: 0 5px 0 0" href="{{ site.linkedin }}"><i class="fab fa-linkedin"></i></a>{% endif %}
+          {% if site.twitter %}<a style="margin: 0 0 0 0" href="{{ site.twitter }}"><i class="fab fa-x-twitter"></i></a>{% endif %}
+        </div>
+        <br>
+      </header>
+
+      <section>
+        {{ content }}
+        <br>
+        {% if site.enable_footnote %}
+        <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+        {% endif %}
+      </section>
+    </div>
+
+    <div class="blog-pet-container">
+      <div class="characters-scene" id="characters-scene">
+        <div class="character char-purple" id="char-purple">
+          <div class="eyes" id="purple-eyes" style="left: 45px; top: 40px; gap: 28px">
+            <div class="eyeball" id="purple-eye-l" style="width: 18px; height: 18px"><div class="pupil" id="purple-pupil-l" style="width: 7px; height: 7px"></div></div>
+            <div class="eyeball" id="purple-eye-r" style="width: 18px; height: 18px"><div class="pupil" id="purple-pupil-r" style="width: 7px; height: 7px"></div></div>
+          </div>
+        </div>
+        <div class="character char-black" id="char-black">
+          <div class="eyes" id="black-eyes" style="left: 26px; top: 32px; gap: 20px">
+            <div class="eyeball" id="black-eye-l" style="width: 16px; height: 16px"><div class="pupil" id="black-pupil-l" style="width: 6px; height: 6px"></div></div>
+            <div class="eyeball" id="black-eye-r" style="width: 16px; height: 16px"><div class="pupil" id="black-pupil-r" style="width: 6px; height: 6px"></div></div>
+          </div>
+        </div>
+        <div class="character char-orange" id="char-orange">
+          <div class="eyes" id="orange-eyes" style="left: 82px; top: 90px; gap: 28px">
+            <div class="bare-pupil" id="orange-pupil-l"></div>
+            <div class="bare-pupil" id="orange-pupil-r"></div>
+          </div>
+        </div>
+        <div class="character char-yellow" id="char-yellow">
+          <div class="eyes" id="yellow-eyes" style="left: 52px; top: 40px; gap: 20px">
+            <div class="bare-pupil" id="yellow-pupil-l"></div>
+            <div class="bare-pupil" id="yellow-pupil-r"></div>
+          </div>
+          <div class="yellow-mouth" id="yellow-mouth" style="left: 40px; top: 88px"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <script>
+    let mouseX = 0, mouseY = 0;
+    let isPurpleBlinking = false, isBlackBlinking = false;
+    let isLookingAtEachOther = false; 
+
+    // ==== ======== [修改处 2] 闲置计时器 JS 逻辑 ============
+    let idleTimer;
+    const IDLE_TIMEOUT = 20000; // 20秒不动就开始摇摆
+
+    function resetIdleTimer() {
+    const chars = document.querySelectorAll('.character');
+    // 鼠标活动时立即移除摇摆动画
+    chars.forEach(c => c.classList.remove('idle-shake'));
+    
+    clearTimeout(idleTimer);
+    idleTimer = setTimeout(() => {
+        // 闲置时间到，添加摇摆动画
+        chars.forEach(c => c.classList.add('idle-shake'));
+    }, IDLE_TIMEOUT);
+    }
+
+
+      const avatar = document.getElementById('blog-avatar');
+      if (avatar) {
+        avatar.addEventListener('mouseenter', () => {
+          isLookingAtEachOther = true;
+          resetIdleTimer(); // 悬停也视为活动
+          updateCharacters();
+        });
+        avatar.addEventListener('mouseleave', () => {
+          isLookingAtEachOther = false;
+          resetIdleTimer();
+          updateCharacters();
+        });
+      }
+
+      document.addEventListener("mousemove", (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+        
+        // --- [修改处 4] 鼠标移动时重置计时器 ---
+        resetIdleTimer();
+
+        if (!isLookingAtEachOther) updateCharacters();
+      });
+
+      function scheduleBlink(char) {
+        setTimeout(() => {
+          if(char === 'purple') isPurpleBlinking = true;
+          if(char === 'black') isBlackBlinking = true;
+          updateCharacters();
+          setTimeout(() => {
+            if(char === 'purple') isPurpleBlinking = false;
+            if(char === 'black') isBlackBlinking = false;
+            updateCharacters();
+            scheduleBlink(char);
+          }, 150);
+        }, Math.random() * 4000 + 3000);
+      }
+      scheduleBlink('purple'); scheduleBlink('black');
+
+      function calcPosition(el) {
+        const rect = el.getBoundingClientRect();
+        const cx = rect.left + rect.width / 2;
+        const cy = rect.top + rect.height / 3;
+        const dx = mouseX - cx;
+        const dy = mouseY - cy;
+        return {
+          faceX: Math.max(-15, Math.min(15, dx / 20)),
+          faceY: Math.max(-10, Math.min(10, dy / 30)),
+          bodySkew: Math.max(-6, Math.min(6, -dx / 120))
+        };
+      }
+
+      function calcPupilOffset(el, maxDist) {
+        const rect = el.getBoundingClientRect();
+        const cx = rect.left + rect.width / 2;
+        const cy = rect.top + rect.height / 2;
+        const dx = mouseX - cx;
+        const dy = mouseY - cy;
+        const dist = Math.min(Math.sqrt(dx * dx + dy * dy), maxDist);
+        const angle = Math.atan2(dy, dx);
+        return { x: Math.cos(angle) * dist, y: Math.sin(angle) * dist };
+      }
+
+      function updateCharacters() {
+        const purple = document.getElementById("char-purple");
+        const black = document.getElementById("char-black");
+        const orange = document.getElementById("char-orange");
+        const yellow = document.getElementById("char-yellow");
+
+        const purplePos = calcPosition(purple);
+        const blackPos = calcPosition(black);
+        const orangePos = calcPosition(orange);
+        const yellowPos = calcPosition(yellow);
+
+        const pEyes = document.getElementById("purple-eyes");
+        const pPupilL = document.getElementById("purple-pupil-l");
+        const pPupilR = document.getElementById("purple-pupil-r");
+        
+        if (isLookingAtEachOther) {
+          purple.style.transform = "skewX(-12deg) translateX(40px)"; 
+          pEyes.style.left = "55px"; pEyes.style.top = "45px";
+          pPupilL.style.transform = "translate(3px, 4px)";
+          pPupilR.style.transform = "translate(3px, 4px)";
+        } else {
+          purple.style.transform = `skewX(${purplePos.bodySkew}deg)`;
+          pEyes.style.left = 45 + purplePos.faceX + "px";
+          pEyes.style.top = 40 + purplePos.faceY + "px";
+          const po = calcPupilOffset(pEyes, 5);
+          pPupilL.style.transform = `translate(${po.x}px, ${po.y}px)`;
+          pPupilR.style.transform = `translate(${po.x}px, ${po.y}px)`;
+        }
+
+        const bEyes = document.getElementById("black-eyes");
+        const bPupilL = document.getElementById("black-pupil-l");
+        const bPupilR = document.getElementById("black-pupil-r");
+
+        if (isLookingAtEachOther) {
+          black.style.transform = "skewX(10deg) translateX(20px)"; 
+          bEyes.style.left = "32px"; bEyes.style.top = "12px";
+          bPupilL.style.transform = "translate(0px, -4px)";
+          bPupilR.style.transform = "translate(0px, -4px)";
+        } else {
+          black.style.transform = `skewX(${blackPos.bodySkew}deg)`;
+          bEyes.style.left = 26 + blackPos.faceX + "px";
+          bEyes.style.top = 32 + blackPos.faceY + "px";
+          const bo = calcPupilOffset(bEyes, 4);
+          bPupilL.style.transform = `translate(${bo.x}px, ${bo.y}px)`;
+          bPupilR.style.transform = `translate(${bo.x}px, ${bo.y}px)`;
+        }
+
+        const pEyeL = document.getElementById("purple-eye-l");
+        const pEyeR = document.getElementById("purple-eye-r");
+        pEyeL.style.height = isPurpleBlinking ? "2px" : "18px";
+        pEyeR.style.height = isPurpleBlinking ? "2px" : "18px";
+
+        const bEyeL = document.getElementById("black-eye-l");
+        const bEyeR = document.getElementById("black-eye-r");
+        bEyeL.style.height = isBlackBlinking ? "2px" : "16px";
+        bEyeR.style.height = isBlackBlinking ? "2px" : "16px";
+
+        orange.style.transform = `skewX(${orangePos.bodySkew}deg)`;
+        const oEyes = document.getElementById("orange-eyes");
+        oEyes.style.left = 82 + orangePos.faceX + "px";
+        oEyes.style.top = 90 + orangePos.faceY + "px";
+
+        yellow.style.transform = `skewX(${yellowPos.bodySkew}deg)`;
+        const yEyes = document.getElementById("yellow-eyes");
+        yEyes.style.left = 52 + yellowPos.faceX + "px";
+        yEyes.style.top = 40 + yellowPos.faceY + "px";
+      }
+
+      /* --- [修改处 5] 初始化计时器 --- */
+      resetIdleTimer();
+    </script>
+
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto'); ga('send', 'pageview');
+    </script>
+    {% endif %}
+  </body>
+</html>
