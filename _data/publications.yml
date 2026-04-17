@@ -19,6 +19,7 @@ main:
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/OpenMMlo"
     bibtex: "./assets/bibtex/yang2025adapting.txt"
     image: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs/raw/main/figures/framework.png"
+    page: "https://xiaoyuyoung.github.io/ConceptDriftMLLMs"
 
   - title: "One Leaf Reveals the Season: Occlusion-Based Contrastive Learning with Semantic-Aware Views for Efficient Visual Representation"
     authors: <strong>Xiaoyu Yang</strong>, Lijian Xu, Hongsheng Li, Shaoting Zhang
