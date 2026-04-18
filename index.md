@@ -17,7 +17,6 @@ My current research interests lie in drift within non-stationary medical environ
 
 I believe that, the mission of AI is to harness the most pioneering innovations to serve the collective welfare of humanity in responsible, ethical and fair manners.
 
-{% include_relative _includes/roadnmap.md %}
 
 ## Awards
 
