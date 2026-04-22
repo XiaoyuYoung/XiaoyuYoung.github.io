@@ -5,7 +5,7 @@
         color: #334155;
         position: relative;
         /* 平时：宽度默认 100%，与上下文文本宽度一致 */
-        width: 90%;
+        width: 100%;
         margin: 1.5rem auto 2.5rem auto;
     }
     
