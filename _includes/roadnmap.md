@@ -6,7 +6,6 @@
         position: relative;
         /* 平时：宽度默认 100%，与上下文文本宽度一致 */
         width: 100%;
-        height: 80%;
         margin: 1.5rem auto 2.5rem auto;
     }
     
