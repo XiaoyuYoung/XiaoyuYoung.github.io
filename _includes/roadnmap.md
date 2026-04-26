@@ -318,7 +318,7 @@
 
                 <!-- Target / Future Goal Node -->
                 <div class="target-node" style="left: 1001px; top: 69px;">
-                    Target: Robust AI for<br>Dynamic Healthcare
+                    Target: Robust AI for<br>Dynamic Health
                 </div>
                 
                 </div>
