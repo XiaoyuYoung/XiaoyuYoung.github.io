@@ -3,7 +3,6 @@ main:
     authors: <strong>Xiaoyu Yang</strong>, Jie Lu, Wei Duan, En Yu
     conference_short: ICML'26
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2026.
-    pdf: "https://arxiv.org/abs/2510.04142"
     code: "https://github.com/XiaoyuYoung/APO"
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/CXR-MAX"
     bibtex: "./assets/bibtex/yang2026turning.txt"
