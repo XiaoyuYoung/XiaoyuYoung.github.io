@@ -7,7 +7,7 @@ main:
     code: "https://github.com/XiaoyuYoung/APO"
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/CXR-MAX"
     bibtex: "./assets/bibtex/yang2026turning.txt"
-    image: "https://github.com/XiaoyuYoung/APO/blob/main/images/workflow.png"
+    image: "https://github.com/XiaoyuYoung/APO/raw/main/images/workflow.png"
     page: "https://xiaoyuyoung.github.io/APO"
 
   - title: "Walking the Tightrope: Autonomous Disentangling Beneficial and Detrimental Drifts in Non-Stationary Custom-Tuning"
