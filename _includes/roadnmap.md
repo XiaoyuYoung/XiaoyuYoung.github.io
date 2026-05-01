@@ -313,7 +313,7 @@
                 </div>
                 
                 <div class="paper-node" style="left: 935px; top: 170px;">
-                    <strong>(Under Review)</strong>Multiple MLLMs<br>Collaborative<br>Diagnosis
+                    <strong>(ICML'26)</strong>Multiple MLLMs<br>Collaborative<br>Diagnosis
                 </div>
 
                 <!-- Target / Future Goal Node -->
