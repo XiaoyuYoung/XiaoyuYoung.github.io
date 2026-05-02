@@ -19,6 +19,11 @@ I believe that, the mission of AI is to harness the most pioneering innovations 
 
 {% include_relative _includes/roadnmap.md %}
 
+{% include_relative _includes/publications.md %}
+
+{% include_relative _includes/services.md %}
+
+
 ## Awards
 
 - Shanghai Computer Society (SCS) [Outstanding Master's Thesis Award](https://mp.weixin.qq.com/s/BZY9uWE2flfPgFpxwbhpnw) **(Top 10 in Shanghai)**.
@@ -26,6 +31,3 @@ I believe that, the mission of AI is to harness the most pioneering innovations 
 - International Research Scholarship.
 
 
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
