@@ -6,6 +6,7 @@ main:
     code: "https://github.com/XiaoyuYoung/APO"
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/CXR-MAX"
     bibtex: "./assets/bibtex/yang2026turning.txt"
+    pdf: "https://arxiv.org/abs/2510.04142"
     image: "https://github.com/XiaoyuYoung/APO/raw/main/images/workflow.png"
     page: "https://xiaoyuyoung.github.io/APO"
 
