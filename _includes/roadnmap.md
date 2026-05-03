@@ -277,7 +277,7 @@
                     <strong>BIBM'22</strong>Cross-modal<br>Medical Image<br>Generation
                 </div>
                 
-                <div class="paper-node" style="left: 321px; top: 556px;" onclick="window.open('https://doi.org/10.1609/AAAI.V40I19.38656', '_blank')">
+                <div class="paper-node" style="left: 321px; top: 556px;" onclick="window.open('https://doi.org/10.1609/aaai.v37i9.26284', '_blank')">
                     <strong>AAAI'23</strong>Long-tailed<br>Pancreatic Tumor<br>Representation
                 </div>
                 
@@ -290,7 +290,7 @@
                     <strong>ICML'25</strong>Efficient<br>Medical Image<br>Representation
                 </div>
                 
-                <div class="paper-node" style="left: 570px; top: 430px;" onclick="window.open('https://openreview.net/forum?id=QdhnStfmH0', '_blank')">
+                <div class="paper-node" style="left: 570px; top: 430px;" onclick="window.open('https://openreview.net/forum?id=0nOTbddAvI', '_blank')">
                     <strong>AAAI'25 (Oral)</strong>Multi-expert<br>Knowledge Fusion
                 </div>
                 
