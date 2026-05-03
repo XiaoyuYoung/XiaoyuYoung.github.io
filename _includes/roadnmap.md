@@ -312,7 +312,7 @@
                     <strong>(TFS'26)</strong>Multi-Stream<br>Dynamic Data<br>Generalization
                 </div>
                 
-                <div class="paper-node" style="left: 935px; top: 170px;">
+                <div class="paper-node" style="left: 935px; top: 170px;" onclick="window.open('https://xiaoyuyoung.github.io/APO/', '_blank')">
                     <strong>(ICML'26)</strong>Multiple MLLMs<br>Collaborative<br>Diagnosis
                 </div>
 
