@@ -273,15 +273,15 @@
 
                 <!-- Research Paper Nodes -->
                 <!-- Specialized Model Area -->
-                <div class="paper-node" style="left: 211px; top: 583px;">
+                <div class="paper-node" style="left: 211px; top: 583px;" onclick="window.open('https://doi.org/10.1109/BIBM52615.2021.9669498', '_blank')">
                     <strong>BIBM'22</strong>Cross-modal<br>Medical Image<br>Generation
                 </div>
                 
-                <div class="paper-node" style="left: 321px; top: 556px;">
+                <div class="paper-node" style="left: 321px; top: 556px;" onclick="window.open('https://doi.org/10.1609/AAAI.V40I19.38656', '_blank')">
                     <strong>AAAI'23</strong>Long-tailed<br>Pancreatic Tumor<br>Representation
                 </div>
                 
-                <div class="paper-node" style="left: 439px; top: 490px;">
+                <div class="paper-node" style="left: 439px; top: 490px;" onclick="window.open('https://doi.org/10.1109/TMI.2024.3435714', '_blank')">
                     <strong>TMI'25</strong>Geometry-Aware<br>Coronary Artery<br>Segmentation
                 </div>
                 
@@ -308,7 +308,7 @@
                 </div>
                 
                 <!-- Multi-Agent Area / Under Review / TFS -->
-                <div class="paper-node" style="left: 931px; top: 283px;">
+                <div class="paper-node" style="left: 931px; top: 283px;" onclick="window.open('https://doi.org/10.1109/TFUZZ.2026.3656402', '_blank')">
                     <strong>(TFS'26)</strong>Multi-Stream<br>Dynamic Data<br>Generalization
                 </div>
                 
