@@ -299,7 +299,7 @@
                 </div>
                 
                 <!-- Temporal Domain -->
-                <div class="paper-node" style="left: 765px; top: 450px;" onclick="window.open('https://openreview.net/forum?id=bhcP1ygckw', '_blank')">
+                <div class="paper-node" style="left: 765px; top: 450px;" onclick="window.open('https://openreview.net/forum?id=efrFbKYobs', '_blank')">
                     <strong>NeurIPS'25</strong>Medical Temporal<br>Domain Generalization
                 </div>
                 
@@ -309,11 +309,11 @@
                 
                 <!-- Multi-Agent Area / Under Review / TFS -->
                 <div class="paper-node" style="left: 931px; top: 283px;" onclick="window.open('https://doi.org/10.1109/TFUZZ.2026.3656402', '_blank')">
-                    <strong>(TFS'26)</strong>Multi-Stream<br>Dynamic Data<br>Generalization
+                    <strong>TFS'26</strong>Multi-Stream<br>Dynamic Data<br>Generalization
                 </div>
                 
                 <div class="paper-node" style="left: 935px; top: 170px;" onclick="window.open('https://xiaoyuyoung.github.io/APO/', '_blank')">
-                    <strong>(ICML'26)</strong>Multiple MLLMs<br>Collaborative<br>Diagnosis
+                    <strong>ICML'26</strong>Multiple MLLMs<br>Collaborative<br>Diagnosis
                 </div>
 
                 <!-- Target / Future Goal Node -->
