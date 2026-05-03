@@ -286,24 +286,24 @@
                 </div>
                 
                 <!-- Reasoning Large Model Area -->
-                <div class="paper-node" style="left: 636px; top: 530px;">
+                <div class="paper-node" style="left: 636px; top: 530px;" onclick="window.open('https://openreview.net/forum?id=toZOqONu9x', '_blank')">
                     <strong>ICML'25</strong>Efficient<br>Medical Image<br>Representation
                 </div>
                 
-                <div class="paper-node" style="left: 570px; top: 430px;">
+                <div class="paper-node" style="left: 570px; top: 430px;" onclick="window.open('https://openreview.net/forum?id=QdhnStfmH0', '_blank')">
                     <strong>AAAI'25 (Oral)</strong>Multi-expert<br>Knowledge Fusion
                 </div>
                 
-                <div class="paper-node" style="left: 692px; top: 356px;">
+                <div class="paper-node" style="left: 692px; top: 356px;" onclick="window.open('https://xiaoyuyoung.github.io/ConceptDriftMLLMs', '_blank')">
                     <strong>ICLR'25</strong>Image-Text<br>Alignment in Medical<br>MLLM Pre-training
                 </div>
                 
                 <!-- Temporal Domain -->
-                <div class="paper-node" style="left: 765px; top: 450px;">
+                <div class="paper-node" style="left: 765px; top: 450px;" onclick="window.open('https://openreview.net/forum?id=bhcP1ygckw', '_blank')">
                     <strong>NeurIPS'25</strong>Medical Temporal<br>Domain Generalization
                 </div>
                 
-                <div class="paper-node" style="left: 793px; top: 250px;">
+                <div class="paper-node" style="left: 793px; top: 250px;" onclick="window.open('https://xiaoyuyoung.github.io/CPO/', '_blank')">
                     <strong>NeurIPS'25</strong>Chest X-ray<br>Trustworthy Inference<br>Diagnosis
                 </div>
                 
