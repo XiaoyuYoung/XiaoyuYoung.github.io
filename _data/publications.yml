@@ -63,12 +63,14 @@ main:
   - title: "Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning"
     authors: En Yu, Jie Lu, Kun Wang, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
     conference_short: "AAAI'26"
-    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI) Oral</strong>, 2026.
+    conference: AAAI Conference on Artificial Intelligence <strong>(AAAI Oral)</strong>, 2026.
     pdf: "https://ojs.aaai.org/index.php/AAAI/article/view/38656/42618"
     bibtex: "./assets/bibtex/yu2026drift.txt"
     image: "./assets/img/camel.png"
     notes: Oral Presentation
-     
+    reported_by: "机器之心"
+    reported_url: "https://mp.weixin.qq.com/s/FYJr01YQEEVFGh2-waGkgQ"
+
   - title: "Learning robust spectral dynamics for temporal domain generalization"
     authors: En Yu, Jie Lu, <strong>Xiaoyu Yang</strong>, Guangquan Zhang, Zhen Fang
     conference_short: "NeurIPS'25"
