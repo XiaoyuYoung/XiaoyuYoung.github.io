@@ -1,4 +1,4 @@
-## News
+## Recent News
 
 - 📢 **Welcome to join in our <a href="https://2026.flins.cc/index.html" target="_blank">FLINS-ISKE 2026 Conference</a>** at Sydney, July 15-19, 2026 !
 
