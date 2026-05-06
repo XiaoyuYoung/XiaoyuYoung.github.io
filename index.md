@@ -33,4 +33,4 @@ I believe that, the mission of AI is to harness the most pioneering innovations 
 - International Research Scholarship.
 
 
-<script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=X5j_yZ6xy2vNo1L5iSyRVI-trcVUlE5u-fNIZDc-jQU&cl=ffffff&w=a"></script>
+<!-- <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=X5j_yZ6xy2vNo1L5iSyRVI-trcVUlE5u-fNIZDc-jQU&cl=ffffff&w=a"></script> -->
