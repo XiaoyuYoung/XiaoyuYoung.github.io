@@ -1,6 +1,5 @@
 main:
   - title: "Turning Drift into Constraint: Robust Reasoning Alignment in Non-Stationary Environments"
-    # title_link： project page -> open review -> arxiv -> doi
     title_link: "https://xiaoyuyoung.github.io/APO" 
     authors: <strong>Xiaoyu Yang</strong>, En Yu, Wei Duan, Jie Lu
     conference_short: ICML'26
