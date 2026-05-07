@@ -1,6 +1,7 @@
 main:
   - title: "Turning Drift into Constraint: Robust Reasoning Alignment in Non-Stationary Environments"
-    title_link: "https://xiaoyuyoung.github.io/APO"
+    # title_link： project page -> open review -> arxiv -> doi
+    title_link: "https://xiaoyuyoung.github.io/APO" 
     authors: <strong>Xiaoyu Yang</strong>, En Yu, Wei Duan, Jie Lu
     conference_short: ICML'26
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2026.
@@ -17,7 +18,7 @@ main:
     authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
     conference_short: NeurIPS'25
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
-    pdf: "https://openreview.net/pdf?id=1BAiQmAFsx"
+    pdf: "https://openreview.net/forum?id=1BAiQmAFsx"
     arxiv: "https://arxiv.org/abs/2505.13081"
     code: "https://github.com/XiaoyuYoung/CPO"
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/CXR-CounterFact"
@@ -31,7 +32,7 @@ main:
     authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
     conference_short: ICLR'25
     conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.
-    pdf: "https://openreview.net/pdf?id=b20VK2GnSs"
+    pdf: "https://openreview.net/forum?id=b20VK2GnSs"
     arxiv: "https://arxiv.org/abs/2405.13459"
     code: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs"
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/OpenMMlo"
@@ -42,18 +43,18 @@ main:
     dataset_name: "OpenMMlo"
 
   - title: "One Leaf Reveals the Season: Occlusion-Based Contrastive Learning with Semantic-Aware Views for Efficient Visual Representation"
-    title_link: "https://arxiv.org/abs/2411.09858"  
+    title_link: "https://openreview.net/forum?id=toZOqONu9x"  
     arxiv: "https://arxiv.org/abs/2411.09858"
     authors: <strong>Xiaoyu Yang</strong>, Lijian Xu, Hongsheng Li, Shaoting Zhang
     conference_short: ICML'25
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
-    pdf: "https://raw.githubusercontent.com/mlresearch/v267/main/assets/yang25ao/yang25ao.pdf"
+    pdf: "https://openreview.net/forum?id=toZOqONu9x"
     code: "https://github.com/XiaoyuYoung/OCL"
     bibtex: "./assets/bibtex/yang2025one.txt"
     image: "./assets/img/ocl.png"
 
   - title: "Segmentation and vascular vectorization for coronary artery by geometry-based cascaded neural network"
-    title_link: "https://doi.org/10.1109/TMI.2024.3435714"  
+    title_link: ""https://arxiv.org/pdf/2305.04208"  
     authors: <strong>Xiaoyu Yang</strong>, Lijian Xu, Simon Yu, Qing Xia, Hongsheng Li, Shaoting Zhang
     conference_short: "TMI'25"
     conference: IEEE Transactions on Medical Imaging <strong>(TMI)</strong>, 2025.
@@ -76,11 +77,11 @@ main:
     image: "./assets/img/aaai_2023.png"
 
   - title: "Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning"
-    title_link: "https://arxiv.org/abs/2508.01598"  
+    title_link: "https://openreview.net/forum?id=0nOTbddAvI"  
     authors: En Yu, Jie Lu, Kun Wang, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
     conference_short: "AAAI'26"
     conference: AAAI Conference on Artificial Intelligence <strong>(AAAI Oral)</strong>, 2026.
-    pdf: "https://doi.org/10.1609/AAAI.V40I19.38656"
+    pdf: "https://openreview.net/forum?id=0nOTbddAvI"
     arxiv: "https://arxiv.org/abs/2508.01598"
     bibtex: "./assets/bibtex/yu2026drift.txt"
     image: "./assets/img/camel.png"
@@ -89,11 +90,11 @@ main:
     reported_url: "https://mp.weixin.qq.com/s/FYJr01YQEEVFGh2-waGkgQ"
 
   - title: "Learning robust spectral dynamics for temporal domain generalization"
-    title_link: "https://arxiv.org/abs/2505.12585"
+    title_link: "https://openreview.net/forum?id=efrFbKYobs"
     authors: En Yu, Jie Lu, <strong>Xiaoyu Yang</strong>, Guangquan Zhang, Zhen Fang
     conference_short: "NeurIPS'25"
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
-    pdf: "https://openreview.net/pdf?id=efrFbKYobs"
+    pdf: "https://openreview.net/forum?id=efrFbKYobs"
     arxiv: "https://arxiv.org/abs/2505.12585"
     bibtex: "./assets/bibtex/yu2025learning.txt"
     image: "./assets/img/yuNeurIPS25.png"
