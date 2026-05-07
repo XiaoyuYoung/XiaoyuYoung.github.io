@@ -53,7 +53,7 @@ main:
     image: "./assets/img/ocl.png"
 
   - title: "Segmentation and vascular vectorization for coronary artery by geometry-based cascaded neural network"
-    title_link: ""https://arxiv.org/pdf/2305.04208"  
+    title_link: "https://arxiv.org/pdf/2305.04208"  
     authors: <strong>Xiaoyu Yang</strong>, Lijian Xu, Simon Yu, Qing Xia, Hongsheng Li, Shaoting Zhang
     conference_short: "TMI'25"
     conference: IEEE Transactions on Medical Imaging <strong>(TMI)</strong>, 2025.
