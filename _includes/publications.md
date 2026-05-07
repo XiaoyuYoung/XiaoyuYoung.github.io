@@ -51,7 +51,7 @@
       <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       {% endif %}
       {% if link.dataset %} 
-      <a href="{{ link.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Dataset</a>
+      <a href="{{ link.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">{{ link.dataset_name }} Dataset</a>
       {% endif %}      
       {% if link.page %} 
       <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
@@ -62,6 +62,7 @@
       {% if link.reported_by %} 
       <a href="{{ link.reported_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Reported by {{ link.reported_by }}</a>
       {% endif %}
+      <br>
       {% if link.notes %} 
       <strong> <i style="color:#e74d3c">{{ link.notes }}</i></strong>
       {% endif %}
