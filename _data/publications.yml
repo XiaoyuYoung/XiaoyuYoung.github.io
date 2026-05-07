@@ -1,21 +1,24 @@
 main:
   - title: "Turning Drift into Constraint: Robust Reasoning Alignment in Non-Stationary Environments"
+    title_link: "https://xiaoyuyoung.github.io/APO"
     authors: <strong>Xiaoyu Yang</strong>, En Yu, Wei Duan, Jie Lu
     conference_short: ICML'26
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2026.
     code: "https://github.com/XiaoyuYoung/APO"
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/CXR-MAX"
     bibtex: "./assets/bibtex/yang2026turning.txt"
-    pdf: "https://arxiv.org/abs/2510.04142"
+    arxiv: "https://arxiv.org/abs/2510.04142"
     image: "https://github.com/XiaoyuYoung/APO/raw/main/images/workflow.png"
     page: "https://xiaoyuyoung.github.io/APO"
     dataset_name: "CXR-MAX"
 
   - title: "Walking the Tightrope: Autonomous Disentangling Beneficial and Detrimental Drifts in Non-Stationary Custom-Tuning"
+    title_link: "https://xiaoyuyoung.github.io/CPO"  
     authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
     conference_short: NeurIPS'25
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
     pdf: "https://openreview.net/pdf?id=1BAiQmAFsx"
+    arxiv: "https://arxiv.org/abs/2505.13081"
     code: "https://github.com/XiaoyuYoung/CPO"
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/CXR-CounterFact"
     bibtex: "./assets/bibtex/yang2025walking.txt"
@@ -24,10 +27,12 @@ main:
     dataset_name: "CXR-CounterFact"
 
   - title: "Adapting Multi-modal Large Language Model to Concept Drift From Pre-training Onwards"
+    title_link: "https://xiaoyuyoung.github.io/ConceptDriftMLLMs"
     authors: <strong>Xiaoyu Yang</strong>, Jie Lu, En Yu
     conference_short: ICLR'25
     conference: International Conference on Learning Representations <strong>(ICLR)</strong>, 2025.
     pdf: "https://openreview.net/pdf?id=b20VK2GnSs"
+    arxiv: "https://arxiv.org/abs/2405.13459"
     code: "https://github.com/XiaoyuYoung/ConceptDriftMLLMs"
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/OpenMMlo"
     bibtex: "./assets/bibtex/yang2025adapting.txt"
@@ -37,6 +42,8 @@ main:
     dataset_name: "OpenMMlo"
 
   - title: "One Leaf Reveals the Season: Occlusion-Based Contrastive Learning with Semantic-Aware Views for Efficient Visual Representation"
+    title_link: "https://arxiv.org/abs/2411.09858"  
+    arxiv: "https://arxiv.org/abs/2411.09858"
     authors: <strong>Xiaoyu Yang</strong>, Lijian Xu, Hongsheng Li, Shaoting Zhang
     conference_short: ICML'25
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2025.
@@ -46,10 +53,12 @@ main:
     image: "./assets/img/ocl.png"
 
   - title: "Segmentation and vascular vectorization for coronary artery by geometry-based cascaded neural network"
+    title_link: "https://doi.org/10.1109/TMI.2024.3435714"  
     authors: <strong>Xiaoyu Yang</strong>, Lijian Xu, Simon Yu, Qing Xia, Hongsheng Li, Shaoting Zhang
     conference_short: "TMI'25"
     conference: IEEE Transactions on Medical Imaging <strong>(TMI)</strong>, 2025.
-    pdf: "https://arxiv.org/pdf/2305.04208"
+    pdf: "https://doi.org/10.1109/TMI.2024.3435714"
+    arxiv: "https://arxiv.org/pdf/2305.04208"
     code: "https://github.com/XiaoyuYoung/Geometry_Segmentation_for_Coronary_Artery"
     bibtex: "./assets/bibtex/yang2025segmentation.txt"
     dataset: "https://huggingface.co/datasets/MedHK23/CCA"
@@ -58,6 +67,7 @@ main:
     dataset_name: "CCA"
 
   - title: "T-distributed spherical feature representation for imbalanced classification"
+    title_link: "https://doi.org/10.1609/aaai.v37i9.26284"  
     authors: <strong>Xiaoyu Yang</strong>, Yufei Chen, Xiaodong Yue, Shaoxun Xu, Chao Ma
     conference_short: "AAAI'23"
     conference: AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong>, 2023.
@@ -66,10 +76,12 @@ main:
     image: "./assets/img/aaai_2023.png"
 
   - title: "Drift-aware collaborative assistance mixture of experts for heterogeneous multistream learning"
+    title_link: "https://arxiv.org/abs/2508.01598"  
     authors: En Yu, Jie Lu, Kun Wang, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
     conference_short: "AAAI'26"
     conference: AAAI Conference on Artificial Intelligence <strong>(AAAI Oral)</strong>, 2026.
-    pdf: "https://ojs.aaai.org/index.php/AAAI/article/view/38656/42618"
+    pdf: "https://doi.org/10.1609/AAAI.V40I19.38656"
+    arxiv: "https://arxiv.org/abs/2508.01598"
     bibtex: "./assets/bibtex/yu2026drift.txt"
     image: "./assets/img/camel.png"
     notes: Oral Presentation
@@ -77,14 +89,17 @@ main:
     reported_url: "https://mp.weixin.qq.com/s/FYJr01YQEEVFGh2-waGkgQ"
 
   - title: "Learning robust spectral dynamics for temporal domain generalization"
+    title_link: "https://arxiv.org/abs/2505.12585"
     authors: En Yu, Jie Lu, <strong>Xiaoyu Yang</strong>, Guangquan Zhang, Zhen Fang
     conference_short: "NeurIPS'25"
     conference: Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong>, 2025.
     pdf: "https://openreview.net/pdf?id=efrFbKYobs"
+    arxiv: "https://arxiv.org/abs/2505.12585"
     bibtex: "./assets/bibtex/yu2025learning.txt"
     image: "./assets/img/yuNeurIPS25.png"
 
   - title: "Autonomous Online Multistream Generalization Via Fuzzy Joint Discriminant Analysis"
+    title_link: "https://doi.org/10.1109/TFUZZ.2026.3656402"
     authors: En Yu, Jie Lu, <strong>Xiaoyu Yang</strong>, Guangquan Zhang
     conference_short: "TFS'26"
     conference: IEEE Transactions on Fuzzy Systems <strong>(TFS)</strong>, 2026.
