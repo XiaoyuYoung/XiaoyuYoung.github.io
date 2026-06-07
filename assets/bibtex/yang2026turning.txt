@@ -1,4 +1,4 @@
-@inproceedings{anonymous2026turning,
+@inproceedings{yang2026Turning,
     title={Turning Drift into Constraint: Robust Reasoning Alignment in Non-Stationary Multi-Stream Environments},
     author={Yang, Xiaoyu and Lu, Jie and Duan, Wei and Yu, En},
     booktitle={Forty-third International Conference on Machine Learning},
