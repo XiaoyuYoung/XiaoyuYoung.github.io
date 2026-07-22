@@ -4,6 +4,7 @@ main:
     authors: <strong>Xiaoyu Yang</strong>, En Yu, Wei Duan, Jie Lu
     conference_short: ICML'26
     conference: International Conference on Machine Learning <strong>(ICML)</strong>, 2026.
+    pdf: "https://openreview.net/forum?id=jgebUtw1lA"
     code: "https://github.com/XiaoyuYoung/APO"
     dataset: "https://huggingface.co/datasets/MiaoMiaoYang/CXR-MAX"
     bibtex: "./assets/bibtex/yang2026turning.txt"
@@ -11,6 +12,8 @@ main:
     image: "https://github.com/XiaoyuYoung/APO/raw/main/images/workflow.png"
     page: "https://xiaoyuyoung.github.io/APO"
     dataset_name: "CXR-MAX"
+    reported_by: "机器之心"
+    reported_url: "https://mp.weixin.qq.com/s/v9fNeL-gHM54HhE6pmk7Yg"
 
   - title: "Walking the Tightrope: Autonomous Disentangling Beneficial and Detrimental Drifts in Non-Stationary Custom-Tuning"
     title_link: "https://xiaoyuyoung.github.io/CPO"  
