@@ -1,5 +1,7 @@
 ## Recent News
 
+- **[30/08/2026]** My research has received over 1,000 citations on <a href="https://scholar.google.com/citations?user=tqjfj-EAAAAJ" target="_blank">Google Scholar</a> !
+
 - 📢 **Welcome to join in our <a href="https://2026.flins.cc/index.html" target="_blank">FLINS-ISKE 2026 Conference</a>** at Sydney, July 15-19, 2026 !
 
 - **[02/05/2026]** One paper is accepted by ICML 2026 ! <a href="https://xiaoyuyoung.github.io/APO" target="_blank">APO</a>
