@@ -258,7 +258,7 @@
 
                 <!-- Axis Titles -->
                 <div class="axis-title" style="left: 150px; top: 35px; transform: translate(-50%, -100%); text-align: center; width: 250px;">Robustness<br>Challenge</div>
-                <div class="axis-title" style="left: 1110px; top: 650px; transform: translateY(-50%); text-align: left; width: 120px;">Medical<br>Intelligence</div>
+                <div class="axis-title" style="left: 1110px; top: 650px; transform: translateY(-50%); text-align: left; width: 120px;">Artifical<br>Intelligence</div>
 
                 <!-- Y-Axis Region Labels -->
                 <div class="axis-label" style="left: 0; width: 135px; top: 583px; transform: translateY(-50%); text-align: right;">Static External<br>Environments</div>
@@ -274,7 +274,7 @@
                 <!-- Research Paper Nodes -->
                 <!-- Specialized Model Area -->
                 <div class="paper-node" style="left: 211px; top: 583px;" onclick="window.open('https://doi.org/10.1109/BIBM52615.2021.9669498', '_blank')">
-                    <strong>BIBM'22</strong>Cross-modal<br>Medical Image<br>Generation
+                    <strong>BIBM'22</strong>Cross-modal<br> Image<br>Generation
                 </div>
                 
                 <div class="paper-node" style="left: 321px; top: 556px;" onclick="window.open('https://doi.org/10.1609/aaai.v37i9.26284', '_blank')">
@@ -287,7 +287,7 @@
                 
                 <!-- Reasoning Large Model Area -->
                 <div class="paper-node" style="left: 636px; top: 530px;" onclick="window.open('https://openreview.net/forum?id=toZOqONu9x', '_blank')">
-                    <strong>ICML'25</strong>Efficient<br>Medical Image<br>Representation
+                    <strong>ICML'25</strong>Efficient<br> Image<br>Representation
                 </div>
                 
                 <div class="paper-node" style="left: 570px; top: 430px;" onclick="window.open('https://openreview.net/forum?id=0nOTbddAvI', '_blank')">
@@ -295,16 +295,16 @@
                 </div>
                 
                 <div class="paper-node" style="left: 692px; top: 356px;" onclick="window.open('https://xiaoyuyoung.github.io/ConceptDriftMLLMs', '_blank')">
-                    <strong>ICLR'25</strong>Image-Text<br>Alignment in Medical<br>MLLM Pre-training
+                    <strong>ICLR'25</strong>Image-Text<br>Alignment in <br>MLLM Pre-training
                 </div>
                 
                 <!-- Temporal Domain -->
                 <div class="paper-node" style="left: 765px; top: 450px;" onclick="window.open('https://openreview.net/forum?id=efrFbKYobs', '_blank')">
-                    <strong>NeurIPS'25</strong>Medical Temporal<br>Domain Generalization
+                    <strong>NeurIPS'25</strong>Temporal<br>Domain Generalization
                 </div>
                 
                 <div class="paper-node" style="left: 793px; top: 250px;" onclick="window.open('https://xiaoyuyoung.github.io/CPO/', '_blank')">
-                    <strong>NeurIPS'25</strong>Chest X-ray<br>Trustworthy Inference<br>Diagnosis
+                    <strong>NeurIPS'25</strong>Trustworthy Inference
                 </div>
                 
                 <!-- Multi-Agent Area / Under Review / TFS -->
@@ -313,12 +313,12 @@
                 </div>
                 
                 <div class="paper-node" style="left: 935px; top: 170px;" onclick="window.open('https://xiaoyuyoung.github.io/APO/', '_blank')">
-                    <strong>ICML'26</strong>Multiple MLLMs<br>Collaborative<br>Diagnosis
+                    <strong>ICML'26</strong>Multiple MLLMs<br>Collaboration<br>
                 </div>
 
                 <!-- Target / Future Goal Node -->
                 <div class="target-node" style="left: 1001px; top: 69px;">
-                    Target: Robust AI for<br>Dynamic Health
+                    Target: Robust AI
                 </div>
                 
                 </div>
