@@ -12,10 +12,9 @@ Hi there, I am Xiaoyu Yang, a Ph.D. student at the [Australian Artificial Intell
 
 ## Research Interests
 
-My current research interests lie in drift within non-stationary medical environments, to ensure that the future of health is not only intelligent, but equitable, reliable, and universally beneficial.
+My current research interests lie in drift within multi-modality large language model and embodied AI, to ensure that the future of AI is not only intelligent, but equitable, reliable, and universally beneficial.
 
 - **Robust & Evolving Intelligence:** Drift Learning, Robust Representation Learning, Multi-modal LLMs.
-- **AI for Health:** Early Detection of Tumours, Rare Disease Diagnosis, Robust and Fair Clinical Reasoning. 
 
 I believe that, the mission of AI is to harness the most pioneering innovations to serve the collective welfare of humanity in responsible, ethical and fair manners.
 
