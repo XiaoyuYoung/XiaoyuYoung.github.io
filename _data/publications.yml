@@ -1,4 +1,14 @@
 main:
+  - title: "The Sirens' Song: When Proximal Background Context Overshadows Distant Evidence"
+    title_link: "https://xiaoyuyoung.github.io/LYRA/" 
+    authors: <strong>Xiaoyu Yang</strong>, Jie Lu, Wei Duan, En Yu
+    code: "https://github.com/XiaoyuYoung/LYRA"
+    dataset: "https://huggingface.co/datasets/MiaoMiaoYang/ProxBench"
+    bibtex: "./assets/bibtex/yang2026sirens.txt"
+    arxiv: "https://arxiv.org/abs/2609.26718"
+    image: "https://xiaoyuyoung.github.io/LYRA/static/images/icon.png"
+    page: "https://xiaoyuyoung.github.io/LYRA"
+    dataset_name: "ProxBench"
   - title: "Turning Drift into Constraint: Robust Reasoning Alignment in Non-Stationary Multi-Stream Environments"
     title_link: "https://xiaoyuyoung.github.io/APO" 
     authors: <strong>Xiaoyu Yang</strong>, En Yu, Wei Duan, Jie Lu
