@@ -1,6 +1,6 @@
 ## Recent News
 
-- **[01/10/2026]** We release our new paper, [**The Sirens’ Song**](https://arxiv.org/abs/2609.26718), uncovering **The Proximity Trap**: nearby tokens can obscure distant evidence by competing for the same finite attention mass.  The challenge is not only finding distant evidence, but keeping it visible. Visit our [project homepage](https://xiaoyuyoung.github.io/LYRA/) to learn more!
+- **[01/10/2026]** We release our new paper, **[The Sirens’ Song](https://arxiv.org/abs/2609.26718)**, uncovering **The Proximity Trap**: nearby tokens can obscure distant evidence by competing for the same finite attention mass.  The challenge is not only finding distant evidence, but keeping it visible. Visit our [project homepage](https://xiaoyuyoung.github.io/LYRA/) to learn more!
 
 - **[30/08/2026]** My research has received over 1,000 citations on <a href="https://scholar.google.com/citations?user=tqjfj-EAAAAJ" target="_blank">Google Scholar</a> !
 
